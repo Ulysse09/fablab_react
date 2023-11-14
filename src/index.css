@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image {
+  background-image: url("./assets/electric.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6) contrast(0.6);
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 100vh;
+}
